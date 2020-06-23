@@ -9,8 +9,8 @@ export default function Home() {
         Western Sydney University, Humanities and Communication Arts, Faculty Member
       </p>
       <br />
-      <div class="columns">
-        <div class="column is-8">
+      <div className="columns">
+        <div className="column is-8">
           <p>
             I am a linguist who works on language contact and change, particularly in the Pacific and Australia, and how new digital
             tools and techniques allow us to research these in new ways. My research interests span historical and contact linguistics,
@@ -37,7 +37,7 @@ export default function Home() {
             and Linguistics Olympiad.
           </p>
         </div>
-        <div class="column is-offset-1">
+        <div className="column is-offset-1">
           <TwitterContainer />
         </div>
       </div>

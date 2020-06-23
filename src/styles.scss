@@ -16,10 +16,24 @@ h1 {
   text-align: center;
 }
 
+img {
+  padding-bottom: 15px;
+}
+
 .footer {
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
   padding: 1rem 0.5rem 1rem;
+}
+
+// Modal styling, make larger on big screen but fill screen on mobile
+@media only screen and (min-width: 769px), print {
+  .modal-content, .modal-card {
+    width: 55%;
+  }
+}
+
+// Modal styling, take up most of screen on mobile
+@media only screen and (max-width: 760px), print {
+  .modal-content, .modal-card {
+    width: 95%;
+  }
 }

@@ -1,34 +1,50 @@
 import React from "react";
 
-import ProjectOne from './projectModals/ProjectOne';
-import ProjectTwo from './projectModals/ProjectTwo';
+import WavesOfWords from './projectModals/WavesOfWords';
+import HowittAndFison from './projectModals/HowittAndFison';
+import AustKin from './projectModals/AustKin';
+import MPCE from './projectModals/MPCE';
+import Glossopticon_VR from './projectModals/Glossopticon_VR';
+import Barrawao from './projectModals/Barrawao';
 
 export default function Publications() {
   return (
-    <div className="container">
+    <div>
+
       <h1 className="title is-1">Projects</h1>
       <br />
 
-      <div class="columns">
-        <div class="column is-5">
-          <ProjectOne />
+      <div className="columns">
+        <div className="column">
+          <WavesOfWords />
         </div>
-        <div class="column is-offset-2">
-          <ProjectTwo />
+        <div className="column is-offset-2">
+          <HowittAndFison />
         </div>
       </div>
-
       <br />
       <br />
 
-      <div class="columns">
-        <div class="column is-5">
-          <ProjectOne />
+      <div className="columns">
+        <div className="column">
+          <AustKin />
         </div>
-        <div class="column is-offset-2">
-          <ProjectTwo />
+        <div className="column is-offset-2">
+          <MPCE />
         </div>
       </div>
+      <br />
+      <br />
+
+      <div className="columns">
+        <div className="column">
+          <Glossopticon_VR />
+        </div>
+        <div className="column is-offset-2">
+          <Barrawao />
+        </div>
+      </div>
+
     </div>
   );
 }

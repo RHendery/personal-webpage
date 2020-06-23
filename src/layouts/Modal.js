@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Modal = ({ children, closeModal, modalState, title }) => {
+const Modal = ({ children, closeModal, modalState, title, url }) => {
   if(!modalState) {
     return null;
   }
@@ -10,16 +10,16 @@ const Modal = ({ children, closeModal, modalState, title }) => {
       <div className="modal-background" onClick={closeModal} />
       <div className="modal-card">
         <header className="modal-card-head">
-          <p className="modal-card-title">{title}</p>
+          <p className="modal-card-title has-text-centered">{title}</p>
           <button className="delete" onClick={closeModal} />
         </header>
-        <section className="modal-card-body">
+        <section className="modal-card-body has-text-justified">
           <div className="content">
             {children}
           </div>
         </section>
         <footer className="modal-card-foot">
-          <a href="https://www.google.com/" target="blank">View the project here</a>
+          <a href={url} target="blank">View the full {title} project here</a>
         </footer>
       </div>
     </div>
