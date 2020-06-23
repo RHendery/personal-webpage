@@ -18,8 +18,10 @@ const Modal = ({ children, closeModal, modalState, title, url }) => {
             {children}
           </div>
         </section>
-        <footer className="modal-card-foot">
-          <a href={url} target="blank">View the full {title} project here</a>
+        <footer className="modal-card-foot is-centered">
+          <p>
+            <a href={url} target="blank">View the full {title} project here</a>
+          </p>
         </footer>
       </div>
     </div>

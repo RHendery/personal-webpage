@@ -18,32 +18,27 @@ export default function Publications() {
         <div className="column">
           <WavesOfWords />
         </div>
-        <div className="column is-offset-2">
+        <div className="column is-offset-1">
           <HowittAndFison />
         </div>
-      </div>
-      <br />
-      <br />
-
-      <div className="columns">
-        <div className="column">
+        <div className="column is-offset-1">
           <AustKin />
         </div>
-        <div className="column is-offset-2">
-          <MPCE />
-        </div>
       </div>
-      <br />
-      <br />
 
       <div className="columns">
         <div className="column">
+          <MPCE />
+        </div>
+        <div className="column is-offset-1">
           <Glossopticon_VR />
         </div>
-        <div className="column is-offset-2">
+        <div className="column is-offset-1">
           <Barrawao />
         </div>
       </div>
+      <br />
+      <br />
 
     </div>
   );

@@ -26,15 +26,14 @@ class WavesOfWords extends Component {
           <div className="container">
             <div className="has-text-centered">
 
-            <figure className="image is-3by2">
-              <a onClick={this.toggleModal} >
-                <img src={img} alt="Wave of Words" />
-              </a>
-            </figure>
-
-              <figcaption className="title">
+              <figcaption className="title is-2">
                 Waves of Words
               </figcaption>
+              <figure className="image is-3by2">
+                <a onClick={this.toggleModal} >
+                  <img src={img} alt="Wave of Words" />
+                </a>
+              </figure>
             </div>
 
             <Modal

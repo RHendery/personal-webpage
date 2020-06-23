@@ -26,14 +26,14 @@ class ProjectTwo extends Component {
           <div className="container">
             <div className="has-text-centered">
 
-            <figure className="image is-3by2">
-              <a onClick={this.toggleModal} >
-                <img src={img} alt="Mapping Print; Charting Enlightenment" />
-              </a>
-            </figure>
-              <figcaption className="title">
+              <figcaption className="title is-5">
                 Mapping Print; Charting Enlightenment
               </figcaption>
+              <figure className="image is-3by2">
+                <a onClick={this.toggleModal} >
+                  <img src={img} alt="Mapping Print; Charting Enlightenment" />
+                </a>
+              </figure>
             </div>
 
             <Modal
