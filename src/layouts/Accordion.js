@@ -6,7 +6,9 @@ function Accordion(props) {
   const [setHeight, setHeightState] = useState("0px");
   const [setRotate, setRotateState] = useState("accordion_icon");
 
+  const citation = useRef(null);
   const content = useRef(null);
+  const url = useRef(null);
 
   function toggleAccordion() {
     setActiveState(setActive === "" ? "active" : "");
@@ -21,14 +23,25 @@ function Accordion(props) {
   return (
     <div className="accordion_section">
       <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
-        <p className="accordion_title">{props.title}</p>
+        <p className="accordion_title is-size-4 has-text-weight-medium">{props.title}</p>
         <Chevron className={`${setRotate}`} width={10} fill={"#777"} />
       </button>
       <div
+        ref={citation}
+        ref={url}
         ref={content}
         style={{ maxHeight: `${setHeight}` }}
         className="accordion_content"
       >
+        <div
+          className="accordion_citation is-italic"
+          dangerouslySetInnerHTML={{ __html: props.citation }}
+        />
+        <div className="accordion_url">
+          <a href={props.url} target="blank"
+            dangerouslySetInnerHTML={{ __html: props.url }}
+          />
+        </div>
         <div
           className="accordion_text"
           dangerouslySetInnerHTML={{ __html: props.content }}

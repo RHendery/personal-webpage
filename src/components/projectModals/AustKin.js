@@ -26,14 +26,14 @@ class AustKin extends Component {
           <div className="container">
             <div className="has-text-centered">
 
-              <figcaption className="title is-4">
-              AustKin
-              </figcaption>
               <figure className="image is-3by2">
                 <a onClick={this.toggleModal} >
                   <img src={img} alt="Austkin" />
                 </a>
               </figure>
+              <figcaption className="title">
+                AustKin
+              </figcaption>
             </div>
 
             <Modal

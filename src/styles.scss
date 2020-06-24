@@ -72,13 +72,6 @@ img {
   background-color: #ccc;
 }
 
-/* Style the accordion content title */
-.accordion_title {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-}
-
 /* Style the accordion chevron icon */
 .accordion_icon {
   margin-left: auto;
@@ -98,8 +91,14 @@ img {
 }
 
 /* Style the accordion content text */
+.accordion_citation, .accordion_url {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px 18px 0 18px;
+}
+
+/* Style the accordion content text */
 .accordion_text {
-  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   padding: 18px;

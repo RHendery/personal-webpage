@@ -26,14 +26,14 @@ class Barrawao extends Component {
           <div className="container">
             <div className="has-text-centered">
 
-              <figcaption className="title">
-                Barrawao 2019
-              </figcaption>
               <figure className="image is-3by2">
                 <a onClick={this.toggleModal} >
                   <img src={img} alt="Barrawao" />
                 </a>
               </figure>
+              <figcaption className="title">
+                Barrawao 2019
+              </figcaption>
             </div>
 
             <Modal

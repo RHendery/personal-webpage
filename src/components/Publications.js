@@ -1,20 +1,16 @@
 import React from 'react';
-import Books from './books/Books';
-import Papers from './papers/Papers';
+import Books from './publications/Books';
+import Papers from './publications/Papers';
 
 export default function Publications() {
   return (
     <div>
-      <h1 className="title is-1">Books and Publications</h1>
+      <h1 className="title is-1">Publications</h1>
       <br />
 
-      <div className="columns">
+      <div className="columns is-centered">
         <div className="column">
-          <h5 className="title is-5">Books</h5>
           <Books />
-        </div>
-        <div className="column is-offset-2">
-          <h5 className="title is-5">Papers & Publications</h5>
           <Papers />
         </div>
       </div>

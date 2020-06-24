@@ -26,14 +26,14 @@ class HowittAndFison extends Component {
           <div className="container">
             <div className="has-text-centered">
 
-              <figcaption className="title">
-                Howitt and Fison
-              </figcaption>
               <figure className="image is-3by2">
                 <a onClick={this.toggleModal} >
                   <img src={img} alt="Howitt and Fison" />
                 </a>
               </figure>
+              <figcaption className="title">
+                Howitt and Fison
+              </figcaption>
             </div>
 
             <Modal

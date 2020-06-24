@@ -26,14 +26,14 @@ class Glossopticon_VR extends Component {
           <div className="container">
             <div className="has-text-centered">
 
-              <figcaption className="title">
-                Glossopticon VR
-              </figcaption>
               <figure className="image is-3by2">
                 <a onClick={this.toggleModal} >
                   <img src={img} alt="Glossopticon VR" />
                 </a>
               </figure>
+              <figcaption className="title">
+                Glossopticon VR
+              </figcaption>
             </div>
 
             <Modal
