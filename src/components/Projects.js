@@ -12,7 +12,6 @@ export default function Publications() {
     <div>
 
       <h1 className="title is-1">Projects</h1>
-      <br />
 
       <div className="columns">
         <div className="column">
