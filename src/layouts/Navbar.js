@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
-  const [isActive, setisActive] = React.useState(false)
+  const [isActive, setisActive] = useState(false)
 
   return (
     <nav className="navbar is-primary" role="navigation" aria-label="main navigation">
