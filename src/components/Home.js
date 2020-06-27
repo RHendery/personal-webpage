@@ -4,11 +4,10 @@ import TwitterContainer from "./TwitterContainer";
 export default function Home() {
   return (
     <div>
-      <h1 className="title is-1">Rachel Hendery</h1>
-      <p className="is-size-4 has-text-centered">
+      <h1 className="title is-1" style={{marginTop: "-15px"}}>Rachel Hendery</h1>
+      <p className="is-size-4 has-text-centered" style={{margin: "-30px 0 35px 0"}}>
         Western Sydney University, Humanities and Communication Arts, Faculty Member
       </p>
-      <br />
       <div className="columns">
         <div className="column is-8">
           <p>

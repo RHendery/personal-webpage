@@ -37,8 +37,6 @@ export default function Publications() {
           <Barrawao />
         </div>
       </div>
-      <br />
-      <br />
 
     </div>
   );

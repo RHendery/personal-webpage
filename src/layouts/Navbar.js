@@ -5,10 +5,10 @@ export default function Navbar() {
   const [isActive, setisActive] = useState(false)
 
   return (
-    <nav className="navbar is-primary" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-primary has-text-weight-medium" role="navigation" aria-label="main navigation">
       <div className="container">
         <div className="navbar-brand">
-          <NavLink exact to="/" className="navbar-item">Rachel Hendery</NavLink>
+          <NavLink exact to="/" className="navbar-item is-size-4">Rachel Hendery</NavLink>
 
             <a onClick={ () => { setisActive(!isActive) } }
                 role="button" className="navbar-burger"
@@ -24,7 +24,7 @@ export default function Navbar() {
         </div>
 
         <div id="navMenu" className={ `navbar-menu ${isActive ? 'is-active' : ''} ` }>
-          <div className="navbar-end">
+          <div className="navbar-end is-size-5">
             <NavLink exact to="/projects" className="navbar-item">Projects</NavLink>
             <NavLink exact to="/publications" className="navbar-item">Publications</NavLink>
           </div>
