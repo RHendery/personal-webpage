@@ -8,6 +8,9 @@ import Glossopticon_VR from './projectModals/Glossopticon_VR';
 import Barrawao from './projectModals/Barrawao';
 
 export default function Publications() {
+  React.useEffect(() => {
+    document.title = 'Projects | Rachel Hendery'
+  })
   return (
     <div>
 

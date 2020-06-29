@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Books from './publications/Books';
 import Papers from './publications/Papers';
 
 export default function Publications() {
+  useEffect(() => {
+    document.title = 'Publications | Rachel Hendery'
+  })
   const [page, setPage] = useState('books')
 
   return (

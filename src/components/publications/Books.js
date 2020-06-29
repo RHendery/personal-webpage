@@ -26,7 +26,7 @@ function Books() {
         title="Kinship Systems: Change and Reconstruction"
         citation="McConvell, P., I. Keen, & R. Hendery.  Kinship Systems: Change and Reconstruction, 2013, University of Utah Press."
         url=""
-        content="Nothing to see here."
+        content="See publisher's website for abstract."
       />
     </div>
   );

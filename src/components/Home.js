@@ -2,6 +2,9 @@ import React from "react";
 import TwitterContainer from "./TwitterContainer";
 
 export default function Home() {
+  React.useEffect(() => {
+    document.title = 'Rachel Hendery'
+  })
   return (
     <div>
       <h1 className="title is-1" style={{marginTop: "-15px"}}>Rachel Hendery</h1>
