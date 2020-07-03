@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/hendery.net/static/css/main.7767e1c2.chunk.css",
-    "main.js": "/hendery.net/static/js/main.a72ab2e2.chunk.js",
-    "main.js.map": "/hendery.net/static/js/main.a72ab2e2.chunk.js.map",
-    "runtime-main.js": "/hendery.net/static/js/runtime-main.783c170a.js",
-    "runtime-main.js.map": "/hendery.net/static/js/runtime-main.783c170a.js.map",
-    "static/js/2.4e595b66.chunk.js": "/hendery.net/static/js/2.4e595b66.chunk.js",
-    "static/js/2.4e595b66.chunk.js.map": "/hendery.net/static/js/2.4e595b66.chunk.js.map",
-    "index.html": "/hendery.net/index.html",
-    "precache-manifest.c25ffbfb9bd691eafc9d96b18f6c5038.js": "/hendery.net/precache-manifest.c25ffbfb9bd691eafc9d96b18f6c5038.js",
-    "service-worker.js": "/hendery.net/service-worker.js",
-    "static/css/main.7767e1c2.chunk.css.map": "/hendery.net/static/css/main.7767e1c2.chunk.css.map",
-    "static/js/2.4e595b66.chunk.js.LICENSE.txt": "/hendery.net/static/js/2.4e595b66.chunk.js.LICENSE.txt",
-    "static/media/01_waves_of_words.jpg": "/hendery.net/static/media/01_waves_of_words.edcbcdc7.jpg",
-    "static/media/02_Howitt_and_Fison.png": "/hendery.net/static/media/02_Howitt_and_Fison.0951e65f.png",
-    "static/media/03_AustKin.png": "/hendery.net/static/media/03_AustKin.46ea6786.png",
-    "static/media/04_MPCE.jpg": "/hendery.net/static/media/04_MPCE.828312d9.jpg",
-    "static/media/05_Glossopticon_VR.jpg": "/hendery.net/static/media/05_Glossopticon_VR.ca06b0ac.jpg",
-    "static/media/06_Barrawao.png": "/hendery.net/static/media/06_Barrawao.099990cf.png"
+    "main.css": "/static/css/main.7767e1c2.chunk.css",
+    "main.js": "/static/js/main.550d034d.chunk.js",
+    "main.js.map": "/static/js/main.550d034d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b0ada58a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b0ada58a.js.map",
+    "static/js/2.4e595b66.chunk.js": "/static/js/2.4e595b66.chunk.js",
+    "static/js/2.4e595b66.chunk.js.map": "/static/js/2.4e595b66.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2c23118ad6c7fcbd52c80e189bee9694.js": "/precache-manifest.2c23118ad6c7fcbd52c80e189bee9694.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7767e1c2.chunk.css.map": "/static/css/main.7767e1c2.chunk.css.map",
+    "static/js/2.4e595b66.chunk.js.LICENSE.txt": "/static/js/2.4e595b66.chunk.js.LICENSE.txt",
+    "static/media/01_waves_of_words.jpg": "/static/media/01_waves_of_words.edcbcdc7.jpg",
+    "static/media/02_Howitt_and_Fison.png": "/static/media/02_Howitt_and_Fison.0951e65f.png",
+    "static/media/03_AustKin.png": "/static/media/03_AustKin.46ea6786.png",
+    "static/media/04_MPCE.jpg": "/static/media/04_MPCE.828312d9.jpg",
+    "static/media/05_Glossopticon_VR.jpg": "/static/media/05_Glossopticon_VR.ca06b0ac.jpg",
+    "static/media/06_Barrawao.png": "/static/media/06_Barrawao.099990cf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.783c170a.js",
+    "static/js/runtime-main.b0ada58a.js",
     "static/js/2.4e595b66.chunk.js",
     "static/css/main.7767e1c2.chunk.css",
-    "static/js/main.a72ab2e2.chunk.js"
+    "static/js/main.550d034d.chunk.js"
   ]
 }
